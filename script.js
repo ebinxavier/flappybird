@@ -211,3 +211,6 @@ bgImg.onload = function(){
 addEventListener('keyup', e=>{
     board.birds[0].jump();
  })
+ addEventListener('mouseup', e=>{
+    board.birds[0].jump();
+ })
